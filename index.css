@@ -1,0 +1,638 @@
+@import url('https://fonts.cdnfonts.com/css/futura-pt');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: futura-pt, sans-serif;
+}
+
+#asos-market-place {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 6px;
+}
+
+#asos-market-place ul {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  /* background-color: #f8f8f8; */
+}
+
+#asos-market-place ul li {
+  list-style: none;
+  /* margin: 0 10px; */
+  font-family: futura-pt, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#asos-market-place ul li img {
+  width: 20px;
+  overflow: hidden;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #2d2d2d;
+  font-family: futura-pt, sans-serif;
+}
+
+nav div {
+  padding: 1rem;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+nav div img {
+  width: 100%;
+  height: 20px;
+}
+
+nav div:nth-child(4) {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+
+.search-box {
+  width: 100%;
+  /* height: min-content; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-input {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: #f8f8f8;
+  border-radius: 50px;
+}
+
+.search-box button {
+  position: absolute;
+  right: 16%;
+  transform: translatex(-16%);
+  font-size: medium;
+  color: #2d2d2d;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.search-box input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 1rem;
+}
+
+.banner {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px;
+  background-color: #9cf0e0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.banner button {
+  /* background-color: #2d2d2d; */
+  width: 100%;
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  padding: 8px 15px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.hero-page {
+  text-align: center;
+  position: relative;
+  margin: 0;
+}
+
+.hero-page img {
+  width: 100%;
+} 
+
+.banner-sub-title {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  right: 40%;
+  /* background-color: black; */
+  color: white;
+}
+
+.banner-sub-title :nth-child(1) {
+  font-size: 60px;
+  font-weight: 700;
+  background-color: black;
+}
+
+.banner-sub-title :nth-child(2) {
+  font-size: 18px;
+  font-weight: 400;
+  background-color: black;
+}
+
+.banner-button {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  right: 30%;
+
+  /* background-color: yellow; */
+}
+
+.banner-button button {
+  font-size: 16px;
+  font-weight: 700;
+  width: 140px;
+  height: 44px;
+  padding-top: 4px;
+  /* background-color: transparent; */
+  color: black;
+  background-color: white;
+  border: 0;
+  margin: 1rem;
+  /* padding: 8px 15px; */
+  /* border-radius: 2px; */
+  cursor: pointer;
+}
+
+.banner-footer {
+  position: absolute;
+  bottom: 4px;
+  width: 90%;
+  height: 54px;
+  left: 5%;
+  text-align: left;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 12px; */
+  background-color: #2d2d2d;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.banner-footer div h3 {
+  font-size: 16px;
+  font-weight: 900;
+  color: white;
+  /* background-color: black; */
+}
+
+.banner-footer div p {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  /* background-color: black; */
+}
+
+
+.footer-social-payment {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: orangered; */
+}
+
+.footer-social-payment div {
+  margin: 0 2rem;
+  padding: 16px 0 0 0;
+  /* border: 1px solid grey; */
+}
+
+.footer-social-payment div a {
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.footer-social-payment div img {
+  width: 30px;
+  margin: 0 1rem;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+/* .footer-head {
+  background-color: #eeeeee;
+} */
+
+#footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  margin: 1rem 0;
+  padding: 1rem;
+  color: #666666;
+  background-color: #eeeeee; 
+}
+
+#footer div {
+  padding: 2rem;
+}
+
+#footer div h3 {
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin: 1rem 0;
+}
+
+#footer div p {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.national-flag {
+  width: 20px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.international-branches {
+  /* width: 100%;
+  height: 20px; */
+  display: grid;
+  grid-template-columns: repeat(7,20px);
+  gap: 16px;
+  /* background-color: orangered; */
+}
+
+.footer-company-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #dddddd;
+  margin: 0;
+  /* padding: 1rem; */
+}
+
+.footer-company-detail div {
+  /* width: 100%; */
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(45, 45, 45);
+  /* padding-bottom: 2px; */
+}
+
+.footer-company-detail div p {
+  padding: 1rem 1rem;
+}
+
+
+@media all and (min-width: 769px) and (main-width:1241px) {
+  .banner-button button {
+    font-size: 16px;
+    font-weight: 700;
+    width: 140px;
+    height: 44px;
+    padding-top: 4px;
+    /* background-color: transparent; */
+    color: black;
+    background-color: white;
+    border: 0;
+    margin: 1rem;
+    /* padding: 8px 15px; */
+    /* border-radius: 2px; */
+    cursor: pointer;
+  }
+}
+
+/* Medium Screen */
+@media all and (min-width: 481px) and (max-width: 768px) {
+  #asos-market-place {
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 6px;
+  }
+  
+  #asos-market-place ul {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* background-color: #f8f8f8; */
+  }
+  
+  #asos-market-place ul li {
+    list-style: none;
+    margin: 0 10px;
+    font-family: futura-pt, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  #asos-market-place ul li img {
+    width: 20px;
+    overflow: hidden;
+  }
+  
+  nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #2d2d2d;
+    font-family: futura-pt, sans-serif;
+  }
+  
+  nav div {
+    /* background-color: olivedrab; */
+    padding: 1rem;
+    font-size: 12px;
+    font-weight: 900;
+  }
+  
+  .asos-logo {
+    width: 100%;
+    height: 12px;
+  }
+  
+  /* .search-box {
+    width: 0%;
+    position: relative;
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+  } */
+  
+  .search-input {
+    /* position: absolute; */
+    width: 0%;
+    overflow: hidden;
+    height: 0px;
+    border: none;
+    outline: none;
+    background-color: #f8f8f8;
+    border-radius: 0px;
+  }
+  
+  .search-box button {
+    /* position: absolute; */
+    right: 24%;
+    transform: translate(-24%);
+    font-size: small;
+    /* color: #2d2d2d; */
+    color: white;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    /* padding: 10px; */
+    border-radius: 50%;
+  }
+  
+  .search-box input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 1rem;
+  }
+  
+  .banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #9cf0e0;
+    font-size: 10px;
+    font-weight: 700;
+  }
+  
+  .banner div {
+    width: 20%;
+    text-align: center;
+  }
+  .banner  button {
+    /* background-color: #2d2d2d; */
+    width: 60%;
+    font-size: 10px;
+    font-weight: 700;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    padding: 6px 12px;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  .hero-page {
+    text-align: center;
+    position: relative;
+    margin: 0;
+  }
+  
+  .hero-page img {
+    width: 100%;
+  } 
+  
+  .banner-sub-title {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    right: 40%;
+    /* background-color: black; */
+    color: white;
+  }
+  
+  .banner-sub-title :nth-child(1) {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: black;
+  }
+  
+  .banner-sub-title :nth-child(2) {
+    font-size: 10px;
+    font-weight: 200;
+    background-color: black;
+  }
+  
+  .banner-button {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    right: 30%;
+  
+    /* background-color: yellow; */
+  }
+  
+  .banner-button button {
+    font-size: 6px;
+    font-weight: 600;
+    width: 60px;
+    height: 24px;
+    padding-top: 0px;
+    /* background-color: transparent; */
+    color: black;
+    background-color: white;
+    border: 0;
+    margin: 1rem;
+    /* padding: 8px 15px; */
+    /* border-radius: 2px; */
+    cursor: pointer;
+  }
+  
+  .banner-footer {
+    position: absolute;
+    bottom: 4px;
+    width: 90%;
+    height: 54px;
+    left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    margin: auto;
+    /* padding: 12px; */
+    background-color: #2d2d2d;
+  }
+  
+  .banner-footer div h3 {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    /* background-color: black; */
+  }
+  
+  .banner-footer div p {
+    font-size: 10px;
+    font-weight: 200;
+    color: white;
+    /* background-color: black; */
+  }
+  
+  
+  .footer-social-payment {
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: orangered; */
+  }
+  
+  .footer-social-payment div {
+    margin: 0 1rem;
+    padding: 4px 0 0 0;
+    /* border: 1px solid grey; */
+  }
+  
+  .footer-social-payment div a {
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .footer-social-payment div img {
+    width: 20px;
+    margin: 0 1rem;
+    object-fit: contain;
+    overflow: hidden;
+  }
+  
+  /* .footer-head {
+    background-color: #eeeeee;
+  } */
+  
+  #footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin: 0;
+    /* padding: 1rem; */
+    color: #666666;
+    background-color: #eeeeee; 
+  }
+  
+  #footer div {
+    width: 34%;
+    /* padding: 1rem; */
+    /* margin: 10px; */
+    width: 1/4;
+    /* background-color: orangered; */
+  }
+  
+  #footer div h3 {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin: 6px 0;
+  }
+  
+  #footer div p {
+    font-size: 16px;
+    font-weight: 200;
+    /* margin: 1rem 0; */
+  }
+  
+  .footer-company-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dddddd;
+    margin: 0;
+    /* padding: 1rem; */
+  }
+  
+  .footer-company-detail div {
+    /* width: 100%; */
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(45, 45, 45);
+    /* padding-bottom: 2px; */
+  }
+  
+  .footer-company-detail div p {
+    padding: 1rem 1rem;
+  }
+  
+  .national-flag {
+    width: 20px;
+    overflow: hidden;
+  }
+}
+
+/* Small Screen */
+/* @media all and (min-width: 320px) and (max-width: 480px) {
+
+} */
